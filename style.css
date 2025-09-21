@@ -20,6 +20,10 @@ main{
   #nav-links {
     display: none !important;
   }
+
+  .menu-grid {
+  grid-template-columns: repeat(1, 200px) !important;
+  }
 }
 
 @media (max-width:1024px){
@@ -150,6 +154,7 @@ main{
 
 .item:hover, .item.active {
   background: #d81b60;
+  text-color : #fff;
   color: #fff;
 }
 #content img{
